@@ -1,0 +1,21 @@
+# Spring Boot Employee Management System
+
+ For testing APIs, a straightforward CRUD application was created with Spring Boot, MySQL, JPA, and Postman.
+
+ ## Technologies Employed: Java 17, Spring Boot, and Spring Data  Postman, Maven, MySQL Database, and JPA
+
+ ## Features: Add Employee; Get Employee by ID; Get All Employees; Update Employee; Delete Employee
+
+ ## Endpoints for APIs
+
+ | Description | Endpoint | Method | -----| ----------+-| -------------| | POST | /employee/add | Add new employee | | GET | /employee/get/{id} | Get employee by ID | | GET | /employee/all | Get all employees | | PUT | /employee/update/{id} | Update employee | | DELETE | /employee/delete/{id} | Delete employee |
+
+ ## How to Operate
+ 1. Establish the employee_db MySQL database
+ 2. Update application.properties
+ 3. Launch the primary class  
+ 4. Test APIs using Postman
+
+ ---
+
+ ## Arya Chandratreya, the developer
